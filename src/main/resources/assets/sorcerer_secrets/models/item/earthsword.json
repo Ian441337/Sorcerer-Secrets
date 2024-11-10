@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "sorcerer_secrets:item/earth_sword"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "sorcerer_secrets:earthsword",
     "sorcerer_secrets:firesword"
   ]
 }

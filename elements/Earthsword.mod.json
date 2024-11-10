@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "firesword",
+    "texture": "earth_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Fire Sword",
+    "name": "Earthsword",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,13 +17,13 @@
         "value": "CUSTOM:SorcererSecrets"
       }
     ],
-    "efficiency": 4.0,
+    "efficiency": 9.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
+    "enchantability": 15,
     "damageVsEntity": 10.0,
     "usageCount": 3000,
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "repairItems": [],
     "immuneToFire": true,
@@ -32,7 +32,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onEntityHitWith": {
-      "name": "FireswordLivingEntityIsHitWithTool"
+      "name": "EarthswordLivingEntityIsHitWithTool"
     }
   }
 }

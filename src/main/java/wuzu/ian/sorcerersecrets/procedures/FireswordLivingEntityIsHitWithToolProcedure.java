@@ -6,6 +6,8 @@ public class FireswordLivingEntityIsHitWithToolProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		entity.setSecondsOnFire(30);
+		if (Math.random() < 0.7) {
+			entity.setSecondsOnFire(30);
+		}
 	}
 }

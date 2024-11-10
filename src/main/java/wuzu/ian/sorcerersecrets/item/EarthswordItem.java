@@ -1,10 +1,7 @@
 
 package wuzu.ian.sorcerersecrets.item;
 
-import wuzu.ian.sorcerersecrets.procedures.FireswordLivingEntityIsHitWithToolProcedure;
-
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
+import wuzu.ian.sorcerersecrets.procedures.EarthswordLivingEntityIsHitWithToolProcedure;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
@@ -13,15 +10,15 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
 
-public class FireswordItem extends SwordItem {
-	public FireswordItem() {
+public class EarthswordItem extends SwordItem {
+	public EarthswordItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 3000;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -33,7 +30,7 @@ public class FireswordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
@@ -45,13 +42,7 @@ public class FireswordItem extends SwordItem {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		FireswordLivingEntityIsHitWithToolProcedure.execute(entity);
+		EarthswordLivingEntityIsHitWithToolProcedure.execute(entity);
 		return retval;
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }
