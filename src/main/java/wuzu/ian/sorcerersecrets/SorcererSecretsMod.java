@@ -1,5 +1,8 @@
 package wuzu.ian.sorcerersecrets;
 
+import wuzu.ian.sorcerersecrets.init.SorcererSecretsModTabs;
+import wuzu.ian.sorcerersecrets.init.SorcererSecretsModItems;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -48,6 +51,10 @@ public class SorcererSecretsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SorcererSecretsModItems.REGISTRY.register(bus);
+
+		SorcererSecretsModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
