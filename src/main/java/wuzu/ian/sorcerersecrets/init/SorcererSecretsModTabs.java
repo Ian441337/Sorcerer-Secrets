@@ -21,6 +21,7 @@ public class SorcererSecretsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sorcerer_secrets.sorcerer_secrets")).icon(() -> new ItemStack(Items.DEBUG_STICK)).displayItems((parameters, tabData) -> {
 				tabData.accept(SorcererSecretsModItems.FIRESWORD.get());
 				tabData.accept(SorcererSecretsModItems.EARTHSWORD.get());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_A.get().asItem());
 			})
 
 					.build());
