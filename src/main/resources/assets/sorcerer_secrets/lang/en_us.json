@@ -1,6 +1,14 @@
 {
   "item.sorcerer_secrets.firesword": "Fire Sword",
+  "block.sorcerer_secrets.rune_i": "ᛁ",
+  "block.sorcerer_secrets.rune_g": "ᚷ",
+  "block.sorcerer_secrets.rune_h": "ᚺ",
+  "block.sorcerer_secrets.rune_e": "ᛖ",
+  "block.sorcerer_secrets.rune_f": "ᚠ",
   "item_group.sorcerer_secrets.sorcerer_secrets": "Sorcerer Secrets",
+  "block.sorcerer_secrets.rune_c": "ᚲ",
+  "block.sorcerer_secrets.rune_d": "ᛞ",
+  "item.sorcerer_secrets.earthsword": "Earthsword",
   "block.sorcerer_secrets.rune_a": "ᚨ",
-  "item.sorcerer_secrets.earthsword": "Earthsword"
+  "block.sorcerer_secrets.rune_b": "ᛒ"
 }

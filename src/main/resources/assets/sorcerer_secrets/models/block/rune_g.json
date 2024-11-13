@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sorcerer_secrets:block/test_rune_blank",
+    "up": "sorcerer_secrets:block/test_rune_blank",
+    "north": "sorcerer_secrets:block/test_rune_g",
+    "east": "sorcerer_secrets:block/test_rune_g",
+    "south": "sorcerer_secrets:block/test_rune_g",
+    "west": "sorcerer_secrets:block/test_rune_g",
+    "particle": "sorcerer_secrets:block/test_rune_blank"
+  },
+  "render_type": "solid"
+}

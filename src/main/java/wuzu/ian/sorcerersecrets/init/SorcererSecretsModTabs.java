@@ -22,6 +22,13 @@ public class SorcererSecretsModTabs {
 				tabData.accept(SorcererSecretsModItems.FIRESWORD.get());
 				tabData.accept(SorcererSecretsModItems.EARTHSWORD.get());
 				tabData.accept(SorcererSecretsModBlocks.RUNE_A.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_B.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_C.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_D.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_E.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_F.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_G.get().asItem());
+				tabData.accept(SorcererSecretsModBlocks.RUNE_I.get().asItem());
 			})
 
 					.build());

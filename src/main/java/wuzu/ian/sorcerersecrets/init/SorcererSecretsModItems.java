@@ -21,6 +21,14 @@ public class SorcererSecretsModItems {
 	public static final RegistryObject<Item> FIRESWORD = REGISTRY.register("firesword", () -> new FireswordItem());
 	public static final RegistryObject<Item> EARTHSWORD = REGISTRY.register("earthsword", () -> new EarthswordItem());
 	public static final RegistryObject<Item> RUNE_A = block(SorcererSecretsModBlocks.RUNE_A);
+	public static final RegistryObject<Item> RUNE_B = block(SorcererSecretsModBlocks.RUNE_B);
+	public static final RegistryObject<Item> RUNE_C = block(SorcererSecretsModBlocks.RUNE_C);
+	public static final RegistryObject<Item> RUNE_D = block(SorcererSecretsModBlocks.RUNE_D);
+	public static final RegistryObject<Item> RUNE_E = block(SorcererSecretsModBlocks.RUNE_E);
+	public static final RegistryObject<Item> RUNE_F = block(SorcererSecretsModBlocks.RUNE_F);
+	public static final RegistryObject<Item> RUNE_G = block(SorcererSecretsModBlocks.RUNE_G);
+	public static final RegistryObject<Item> RUNE_H = block(SorcererSecretsModBlocks.RUNE_H);
+	public static final RegistryObject<Item> RUNE_I = block(SorcererSecretsModBlocks.RUNE_I);
 
 	// Start of user code block custom items
 	// End of user code block custom items
