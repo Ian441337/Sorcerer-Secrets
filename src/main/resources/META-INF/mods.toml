@@ -39,6 +39,18 @@ authors="Ian13"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.sorcerer_secrets]]
+    modId="ldlib_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sorcerer_secrets]]
+    modId="photon_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
